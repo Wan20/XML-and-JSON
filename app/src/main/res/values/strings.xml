@@ -2,6 +2,6 @@
     <string name="app_name">JSON Parsing</string>
     <string name="title1">JSON Example</string>
     <string name="title2">JSON Array Example</string>
-    <string name="me">https://github.com/Wan20/XML-and-JSON></string>
+    <string name="me">https://github.com/Wan20/XML-and-JSON</string>
     <string name="button">Next</string>
 </resources>
