@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JSON Parsing</string>
+    <string name="theme">JSON Example</string>
+    <string name="me">https://github.com/Wan20/XML-and-JSON></string>
 </resources>
