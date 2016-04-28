@@ -19,7 +19,11 @@ public class Main2Activity extends AppCompatActivity {
         String strJson=
                 "{ \"Student\" :[" +
                 "{\"id\":\"01\", \"name\":\"Aimbamino\", \"course\":\"Computer Science\", \"ipk\":\"3.9\"}," +
-                "{\"id\":\"02\", \"name\":\"Vimal Jaiswal\", \"course\":\"Computer Engineer\", \"ipk\":\"3.94\"}" +
+                "{\"id\":\"02\", \"name\":\"Vimal Jaiswal\", \"course\":\"Computer Engineer\", \"ipk\":\"3.94\"}," +
+                        "{\"id\":\"03\", \"name\":\"Jimmie\", \"course\":\"Computer Science\", \"ipk\":\"3.25\"}," +
+                        "{\"id\":\"04\", \"name\":\"Kuma1\", \"course\":\"Computer Engineer\", \"ipk\":\"3.954\"}," +
+                        "{\"id\":\"05\", \"name\":\"Tabitha\", \"course\":\"Computer Science\", \"ipk\":\"3.96\"}," +
+                        "{\"id\":\"06\", \"name\":\"Natasha\", \"course\":\"Computer Engineer\", \"ipk\":\"3.8\"}" +
                 "] }";
 
         String data = "";
@@ -41,7 +45,7 @@ public class Main2Activity extends AppCompatActivity {
                 String course = jsonObject.optString("course").toString();
                 float ipk = Float.parseFloat(jsonObject.optString("ipk").toString());
 
-                data += " \n\n Id= "+ id +" \n Name= "+ name +" \n Course= "+ course + "\n IPK= "+ ipk +" \n ";
+                data += " Id = "+ id +" \n Name = "+ name +" \n Course = "+ course + "\n IPK = "+ ipk +" \n\n";
             }
             ;
             Out.setText(data);
