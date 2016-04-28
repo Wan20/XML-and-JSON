@@ -47,7 +47,6 @@ public class Main2Activity extends AppCompatActivity {
 
                 data += " Id = "+ id +" \n Name = "+ name +" \n Course = "+ course + "\n IPK = "+ ipk +" \n\n";
             }
-            ;
             Out.setText(data);
         }
         catch (JSONException e)
