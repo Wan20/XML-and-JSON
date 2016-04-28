@@ -1,7 +1,6 @@
 # XML-and-JSON
 In this part we learn use JSON Parser. And this result when the app running:
-![alt tag](https://github.com/Wan20/MyApps/blob/JSONParsing/JSON.png)
-![alt tag](https://github.com/Wan20/MyApps/blob/JSONParsing/JSONArray.png)
+
 
 ###Note:
 
